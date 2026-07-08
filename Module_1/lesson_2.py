@@ -105,3 +105,28 @@
 
 # Logical Operators in Python: Logical operators are used to combine conditional statements.
 
+# and : Returns True if both statements are true.
+
+# age = 20
+# print(age > 18 and age < 30) # Output: True
+
+# # or : Returns True if at Least one of the statements is true.
+# print(age < 18 or age < 30) # Output: True
+
+# # not : Returns True if the statement is false.
+# print(not(age < 18)) # Output: True
+
+
+
+# Membership Operators in Python: Membership operators are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+fruits = ["apple", "banana", "cherry"]
+print("apple" in fruits) #Output: True
+print("grape" not in fruits) #Output: True
+
+
+numbers = [1, 2, 3, 4, 5]
+print(6 in numbers) #Output: False
+
+
+
+
