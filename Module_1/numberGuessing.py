@@ -15,12 +15,29 @@
 # (Hint: you'll need a while loop.)
 
 
+# secret = 7
+
+# guessNum = int(input("Guess the number: "))
+
+# while guessNum != secret:
+#     print("Try Again.")
+#     guessNum = int(input("Guess the number: "))
+
+# print("Congratulations! You guessed correctly.")
+
+
+
+# Second version of this game
+
 secret = 7
 
-guessNum = int(input("Guess the number: "))
+while True:
+    guess = int(input("Guess the number: "))
 
-while guessNum != secret:
-    print("Try Again.")
-    guessNum = int(input("Guess the number: "))
-
-print("Congratulations! You guessed correctly.")
+    if guess == secret:
+        print("🎉 Congratulatuions! You guessed correctly.")
+        break
+    elif guess < secret:
+        print("Too low! Try again.")
+    else:
+        print("Too high! Try again.")
