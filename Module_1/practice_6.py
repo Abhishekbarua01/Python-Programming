@@ -46,7 +46,7 @@ while count >= 1:
 # Exercise 5
 # Ask the user for a number and print its multiplication table.
 
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
 i = 1
 while i <= 10:
